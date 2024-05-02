@@ -7,7 +7,7 @@ function App() {
     // Event listener to listen for messages from the iframe
     const receiveMessage = event => {
       // Check origin of the message for security
-      if (event.origin !== 'https://543ae0-48.myshopify.com/') return;
+      if (event.origin !== 'https://vinylunderground.co.uk/products/the-mr-k-edits-fritz-the-cat') return;
 
       // Handle received data
       console.log('Received data from iframe:', event.data);
@@ -28,7 +28,7 @@ function App() {
     <div>
       <h1>React Web App</h1>
       {/* Embed the iframe */}
-      <iframe src="https://543ae0-48.myshopify.com/" title="Music Links" />
+      <iframe src="https://vinylunderground.co.uk/products/the-mr-k-edits-fritz-the-cat" title="Music Links" />
     </div>
   );
 }
